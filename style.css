@@ -8,14 +8,9 @@ section{
 div{
     display: block;
 }
-.sec1{
-    background-image: url(images/shapes/Frame\ 57.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5%;
-}
-.skip{
-    color: crimson;
+.half-width{
+    width: 50%;
+    padding: 7%;
 }
 .head{
     font-family: sans-serif;
@@ -24,6 +19,44 @@ div{
 }
 .head02{
     text-align: justify;
+}
+.header{
+    overflow: hidden;
+    background-image: url(images/front-view-chicken-soup-with-chicken-greens-inside-dark-blue-background-soup-meat-food-dinner-chicken.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 65%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.linktop{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    transition: .2s ease-out;
+}
+.linktop:hover{
+    background-color: crimson;
+    color: white;
+}
+
+
+.sec1{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+}
+.skip{
+    color: crimson;
 }
 .order{
     text-decoration: none;
@@ -45,10 +78,8 @@ div{
 .img1st:hover{
     transform: scale(1.1);
 }
-.half-width{
-    width: 50%;
-    padding: 7%;
-}
+
+
 .sec2{
     background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
@@ -63,10 +94,14 @@ div{
 .img2nd:hover{
     transform: scale(1.1);
 }
+
+
 .sec3{
     margin-top: 50px;
     text-align: center;
 }
+
+
 .sec04{
     margin: 60px;
 }
@@ -87,6 +122,8 @@ div{
     width: 100%;
     border-radius: 20px;
 }
+
+
 .sec05{
     margin: 60px;
     box-shadow: 5px 5px 20px rgb(34, 33, 33);
@@ -98,6 +135,8 @@ div{
     padding: 2%;
     text-align: center;
 }
+
+
 footer{
     background-color: rgb(24, 24, 26);
     padding: 5%;
