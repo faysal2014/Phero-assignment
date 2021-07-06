@@ -20,18 +20,22 @@ div{
 .head02{
     text-align: justify;
 }
+
+
+
 .header{
     overflow: hidden;
     background-image: url(images/front-view-chicken-soup-with-chicken-greens-inside-dark-blue-background-soup-meat-food-dinner-chicken.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.top{
     padding-left: 65%;
-    padding-top: 3%;
-    padding-bottom: 3%;
 }
 .linktop{
-    float: right;
     padding: 10px;
     margin: 10px;
     text-decoration: none;
@@ -42,11 +46,13 @@ div{
     background-color: white;
     border-radius: 15px;
     transition: .2s ease-out;
+    object-position: right;
 }
 .linktop:hover{
     background-color: crimson;
     color: white;
 }
+
 
 
 .sec1{
@@ -80,6 +86,7 @@ div{
 }
 
 
+
 .sec2{
     background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
@@ -96,10 +103,12 @@ div{
 }
 
 
+
 .sec3{
     margin-top: 50px;
     text-align: center;
 }
+
 
 
 .sec04{
@@ -124,6 +133,7 @@ div{
 }
 
 
+
 .sec05{
     margin: 60px;
     box-shadow: 5px 5px 20px rgb(34, 33, 33);
@@ -135,6 +145,7 @@ div{
     padding: 2%;
     text-align: center;
 }
+
 
 
 footer{
